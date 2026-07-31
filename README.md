@@ -29,9 +29,10 @@ Bu araç yalnızca eğitim amaçlı ve **açık yazılı izin** aldığınız si
 ## Kurulum
 
 ```bash
-git clone https://github.com/kullaniciadi/webpentesttool.git
-cd webpentesttool
-pip install -r requirements.txt
+git clone https://github.com/Vastrel200/dos-ddos-apk.git
+cd vastrel
+pip install
+pip install requests colorama(bunları yüklemessenizde olur)
 
 ```
 
