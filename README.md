@@ -30,7 +30,7 @@ Bu araç yalnızca eğitim amaçlı ve **açık yazılı izin** aldığınız si
 
 ```bash
 git clone https://github.com/Vastrel200/dos-ddos-apk.git
-cd vastrel
+cd dos-ddos-apk
 pip install requests colorama(bunları yüklemessenizde olur)
 
 ```
