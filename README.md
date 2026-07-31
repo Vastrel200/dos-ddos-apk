@@ -17,15 +17,22 @@ Bu araç yalnızca eğitim amaçlı ve **açık yazılı izin** aldığınız si
 
 ## Gereksinimler
 
-- Python 3.9+
-- pip
-
+- Python 3.9+: bu yoksa cık sayfadan
+- pip: bu olmadan olmaz amk
+- socket: Ağ bağlantılarını ve TCP soketlerini oluşturmak için.
+- random: Rastgele kullanıcı aracı (User-Agent) ve sayılar üretmek için.
+- sys: Terminal çıktılarını anlık olarak ekrana basmak (sys.stdout.flush) için.
+- argparse: Kodun içinde tanımlı olan ancak menü yapısında aktif kullanılmayan argüman yönetimi için.
+- time: İstekler arasına bekleme süresi koymak (time.sleep) için.concurrent.
+- futures (ThreadPoolExecutor): Eşzamanlı olarak birden fazla bağlantı (multi-threading) açabilmek için.
+- os: Menü ekranını temizleme komutu (clear veya cls) için.
 ## Kurulum
 
 ```bash
 git clone https://github.com/kullaniciadi/webpentesttool.git
 cd webpentesttool
 pip install -r requirements.txt
+
 ```
 
 ## Kullanım
